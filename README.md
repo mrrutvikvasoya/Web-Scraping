@@ -58,5 +58,24 @@ To set up the web scraping tool on your local machine, follow these steps:
     - Extract image URLs, text content, and store them in the SQLite database.
     - Optionally download images and organize them by domain name.
 
-## File Structure
+
+### Sample Output:
+- The program scrapes `https://example.com` and all sub-URLs under the same domain.
+- The text content and image URLs are stored in a SQLite database named `example.com.db`.
+- Images are downloaded into a directory `./images/example.com/`.
+
+## Contributing
+
+If you want to contribute to this project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
